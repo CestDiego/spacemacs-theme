@@ -91,6 +91,10 @@
         (green-bg      (if (eq variant 'dark) (if (display-graphic-p) "#29422d" "#262626") (if (display-graphic-p) "#dae6d0" "#ffffff")))
         (red-bg        (if (eq variant 'dark) (if (display-graphic-p) "#512e31" "#262626") (if (display-graphic-p) "#eed9d2" "#ffffff"))))
 
+    (custom-theme-set-variables
+     theme-name
+     `(ansi-color-names-vector [,bg1 ,red ,green ,yellow
+                                     ,inf ,func ,cyan ,base]))
     (custom-theme-set-faces
      theme-name
 
