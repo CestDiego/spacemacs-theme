@@ -365,8 +365,8 @@
      `(magit-section-title ((,class (:background ,bg1 :foreground ,builtin :weight bold))))
 
 ;;;;; mode-line
-     `(mode-line           ((,class (:foreground ,base :background ,active1 :box (:color ,m-line-brdr :line-width 1)))))
-     `(mode-line-inactive  ((,class (:foreground ,base :background ,bg1     :box (:color ,m-line-brdr :line-width 1)))))
+     `(mode-line           ((,class (:foreground ,base :background ,active1 :box nil))))
+     `(mode-line-inactive  ((,class (:foreground ,base :background ,bg1     :box nil ))))
      `(mode-line-buffer-id ((,class (:bold t :foreground ,func))))
 
 ;;;;; neotree
